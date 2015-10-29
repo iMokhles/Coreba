@@ -63,7 +63,6 @@ MSHook(_Bool, _UIAccessibilityForceTouchEnabled)
 	return handleDelegate;
 }
 %end
-
 %end
 
 %group TWMain
