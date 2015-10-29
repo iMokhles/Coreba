@@ -16,7 +16,6 @@
     UIMutableApplicationShortcutItem *searchNearBy = [[UIMutableApplicationShortcutItem alloc] initWithType:@"com.apple.Maps.search-nearby" localizedTitle:[[NSBundle mainBundle] localizedStringForKey:@"QUICK_ACTION_SEARCH_NEARBY" value:@"" table:@"InfoPlist-OrbHW"] localizedSubtitle:nil icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeSearch] userInfo:nil];
     [[UIApplication sharedApplication] setShortcutItems: @[ directionHome, markLocation, shareLocation, searchNearBy ]];
 }
-
 + (void)addPhotosShortCuts {
 
 	NSURL *lastImageURL = [DCIMImageWellUtilities cameraPreviewWellImageFileURL];
